@@ -1,0 +1,45 @@
+
+*{font-family: 'Paprika', cursive;}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background-image: radial-gradient(
+    circle at 0% 0%,
+    #fda500 0,
+    #fd3838 50%,
+    #ff7300 100%
+  );
+    
+    
+    
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+
+p{
+    margin-left: 0px;
+    font-size: xx-large;
+    padding: 15%;
+    font-family: 'Paprika', cursive;
+    color: rgb(255, 255, 255);
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    color: #ff0000;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
